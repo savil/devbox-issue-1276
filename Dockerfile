@@ -28,8 +28,6 @@ COPY devbox.lock devbox.lock
 COPY requirements.txt requirements.txt
 COPY main.py main.py
 COPY Dockerfile Dockerfile
-COPY venvShellHook.sh venvShellHook.sh
-RUN sudo chmod 744 /code/venvShellHook.sh
 COPY local-flakes ./local-flakes/
 RUN sudo chown -R "${DEVBOX_USER}:${DEVBOX_USER}" /code
 

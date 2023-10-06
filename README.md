@@ -174,6 +174,11 @@ rsvg-convert version 2.52.5
 
 ```
 
+This seems to now work!
+
+**NOTE**: the `flake.nix` in the `local-flake` folders have a hardcoded `system = x86_64-linux;` in them.
+If you'd like to try this out on another architecture, then please modify this value. [Nix supports these systems](https://nixos.org/manual/nix/stable/installation/supported-platforms). This libc issue doesn't apply to MacOS, since Nix's `stdenv` uses `clang` on Macs instead of `libc`.
+
 ## Reasoning and Limitations
 
 This fix relies on the following assumptions and observations:
