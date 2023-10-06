@@ -2,8 +2,13 @@
   description = "A flake that wraps python310 and autopatchelfs it to the latest libc";
 
   inputs = {
-    nixpkgs-latest.url = "github:nixos/nixpkgs/3364b5b117f65fe1ce65a3cdd5612a078a3b31e3";
+
+    # nixpkgs commit of most recent glibc (2.37-8) https://www.nixhub.io/packages/glibc
+    nixpkgs-latest.url = "github:nixos/nixpkgs/7131f3c223a2d799568e4b278380cd9dac2b8579";
+    
+    # from the devbox.lock file for python310@latest
     nixpkgs-python.url = "github:nixos/nixpkgs/806075be2bdde71895359ed18cb530c4d323e6f6";
+
     wrapper.url = "github:savil/libc-patcher";
   };
 

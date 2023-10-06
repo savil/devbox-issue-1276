@@ -1,15 +1,13 @@
 {
   "packages": [
-    "path:./local-flakes/python",
+    "python310@latest",
     "python310Packages.pip@latest",
     "inkscape@1.1.2",
-    "path:./local-flakes/librsvg",
+    "librsvg@2.52.5",
     "xorg.xorgserver@latest",
     "plantuml@1.2023.9",
     "imagemagick@6.9.11-60",
-    "texlive.combined.scheme-full@2022.20221227",
-    "path:./local-flakes/hello",
-    "github:nixos/nixpkgs/7131f3c223a2d799568e4b278380cd9dac2b8579#stdenv.cc.cc.lib"
+    "texlive.combined.scheme-full@2022.20221227"
   ],
   "shell": {
     "init_hook": [

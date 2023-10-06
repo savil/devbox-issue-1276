@@ -2,11 +2,13 @@
   description = "A flake that wraps librsvg and autopatchelfs it to the latest libc";
 
   inputs = {
-    # this latest nixpkgs is used for stdenv.cc.cc.lib and similar
-    nixpkgs-latest.url = "github:nixos/nixpkgs/3364b5b117f65fe1ce65a3cdd5612a078a3b31e3";
+
+    # nixpkgs commit of glibc 2.37-8 https://www.nixhub.io/packages/glibc
+    nixpkgs-latest.url = "github:nixos/nixpkgs/7131f3c223a2d799568e4b278380cd9dac2b8579";
 
     # this nixpkgs is for librsvg@2.52.5
     nixpkgs-librsvg.url = "github:NixOS/nixpkgs/8eb9d6c0d4d8f744b9c347a5f26c90f5f0e1e830";
+
     wrapper.url = "github:savil/libc-patcher";
   };
 

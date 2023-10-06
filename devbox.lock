@@ -5,55 +5,113 @@
       "last_modified": "2021-02-26T06:31:15Z",
       "resolved": "github:NixOS/nixpkgs/870dbb751f4d851a3dfb554835a0c2f528386982#imagemagick",
       "source": "devbox-search",
-      "version": "6.9.11-60"
+      "version": "6.9.11-60",
+      "systems": {
+        "x86_64-linux": {
+          "store_path": "/nix/store/80fzyyngmnknjban739mcj4bngwwh9gd-imagemagick-6.9.11-60"
+        }
+      }
     },
     "inkscape@1.1.2": {
       "last_modified": "2022-06-08T05:14:48Z",
       "resolved": "github:NixOS/nixpkgs/43ecbe7840d155fa933ee8a500fb00dbbc651fc8#inkscape",
       "source": "devbox-search",
-      "version": "1.1.2"
-    },
-    "librsvg@2.52.5": {
-      "last_modified": "2022-03-15T13:16:03Z",
-      "resolved": "github:NixOS/nixpkgs/3eb07eeafb52bcbf02ce800f032f18d666a9498d#librsvg",
-      "source": "devbox-search",
-      "version": "2.52.5"
+      "version": "1.1.2",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/qbgnx6ksg3hl3mpxncf23ls1j8s0aphh-inkscape-1.1.2"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/j47yx6p3nl96jd87wg2kqg2jbcrgackm-inkscape-1.1.2"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/4m25rsa83nnaq7xj5mqyh6ydi6mdy47c-inkscape-1.1.2"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/3smbf3i4mynnbhzhc5kfsash4yjzcsnj-inkscape-1.1.2"
+        }
+      }
     },
     "plantuml@1.2023.9": {
       "last_modified": "2023-07-17T21:59:53Z",
       "resolved": "github:NixOS/nixpkgs/57695599bdc4f7bfe5d28cfa23f14b3d8bdf8a5f#plantuml",
       "source": "devbox-search",
-      "version": "1.2023.9"
-    },
-    "python310@latest": {
-      "last_modified": "2023-02-24T18:08:35Z",
-      "plugin_version": "0.0.1",
-      "resolved": "github:NixOS/nixpkgs/806075be2bdde71895359ed18cb530c4d323e6f6#python3",
-      "source": "devbox-search",
-      "version": "3.10.9"
+      "version": "1.2023.9",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/i786ysvf7jqkqn6a2s3c5mk7lvb99zpa-plantuml-1.2023.9"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/hignbimjikcdjh2mk7gw4rin0n8cywxv-plantuml-1.2023.9"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/zgyzagj43i9lqq1y9ppb8sg0gc92jg3j-plantuml-1.2023.9"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/4gp0h74wfy6qfr1cl7lryw1grqz3n7fx-plantuml-1.2023.9"
+        }
+      }
     },
     "python310Packages.pip@latest": {
-      "last_modified": "2023-09-04T16:24:30Z",
+      "last_modified": "2023-09-27T18:02:17Z",
       "plugin_version": "0.0.1",
-      "resolved": "github:NixOS/nixpkgs/3c15feef7770eb5500a4b8792623e2d6f598c9c1#python310Packages.pip",
+      "resolved": "github:NixOS/nixpkgs/517501bcf14ae6ec47efd6a17dda0ca8e6d866f9#python310Packages.pip",
       "source": "devbox-search",
-      "version": "23.2.1"
-    },
-    "stdenv.cc.cc.lib": {
-      "resolved": "github:nixos/nixpkgs/3364b5b117f65fe1ce65a3cdd5612a078a3b31e3#stdenv.cc.cc.lib",
-      "source": "nixpkg"
+      "version": "23.2.1",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/2wd5am1qz5s096fmgzjn7l19gh4gw6bm-python3.10-pip-23.2.1"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/88mx99ibacggvjy51wx8hi3c7935m37q-python3.10-pip-23.2.1"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/gjbwpbj9rqbr6dxld5m1w1h1mipzzspx-python3.10-pip-23.2.1"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/j73ikmqhvn2sjb536bpk9khrn2cgijy3-python3.10-pip-23.2.1"
+        }
+      }
     },
     "texlive.combined.scheme-full@2022.20221227": {
       "last_modified": "2023-05-01T00:19:33Z",
       "resolved": "github:NixOS/nixpkgs/8b3bc690e201c8d3cbd14633dbf3462a820e73f2#texlive.combined.scheme-full",
       "source": "devbox-search",
-      "version": "2022.20221227"
+      "version": "2022.20221227",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/gjk2iv4rvq1cwr9lg9kn9pb83hv3ls9j-texlive-combined-full-2022.20221227"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/1r9smj72wx2w1x4b08qnh3nnpsnm2nxm-texlive-combined-full-2022.20221227"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/d9famz598ywgkimljiixgy22022yw2yp-texlive-combined-full-2022.20221227"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/is5cskjyd601ds8jkff88yms43qzvrad-texlive-combined-full-2022.20221227"
+        }
+      }
     },
     "xorg.xorgserver@latest": {
       "last_modified": "2023-06-05T04:13:11Z",
       "resolved": "github:NixOS/nixpkgs/31cd1b4afbaf0b1e81272ee9c31d1ab606503aed#xorg.xorgserver",
       "source": "devbox-search",
-      "version": "21.1.8"
+      "version": "21.1.8",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/2lsi7jqll7m4m4vb79s1l4nw9l36gcgq-xorg-server-21.1.8"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/aqc50njqdpwxiivjay64j9hxm8n5f2sf-xorg-server-21.1.8"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/d4fbyksr6a9dvss5vidc9i3a42nzkhdk-xorg-server-21.1.8"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/h0gmbxjjvw85dhzgr1g003d4xpq21kag-xorg-server-21.1.8"
+        }
+      }
     }
   }
 }
