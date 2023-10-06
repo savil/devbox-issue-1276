@@ -1,5 +1,5 @@
 {
-  description = "A flake that wraps librsvg and autopatchelfs it to the latest libc";
+  description = "A flake that wraps librsvg and patchelfs it to the latest libc";
 
   inputs = {
 

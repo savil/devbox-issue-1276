@@ -1,5 +1,5 @@
 {
-  description = "A flake that wraps python310 and autopatchelfs it to the latest libc";
+  description = "A flake that wraps python310 and patchelfs it to the latest libc";
 
   inputs = {
 
