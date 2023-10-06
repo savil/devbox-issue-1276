@@ -1,0 +1,26 @@
+{
+  "packages": [
+    "path:./local-flakes/python",
+    "path:./local-flakes/pip",
+    "inkscape@1.1.2",
+    "path:./local-flakes/librsvg",
+    "xorg.xorgserver@latest",
+    "plantuml@1.2023.9",
+    "imagemagick@6.9.11-60",
+    "github:nixos/nixpkgs/3364b5b117f65fe1ce65a3cdd5612a078a3b31e3#stdenv.cc.cc.lib",
+    "texlive.combined.scheme-full@2022.20221227"
+  ],
+  "env": {
+    	"VENV_DIR": "$PWD/.devbox/virtenv/.venv"
+  },
+  "shell": {
+    "init_hook": [
+      "./venvShellHook.sh",
+      ". $VENV_DIR/bin/activate",
+      "pip install -q -r requirements.txt"
+    ]
+  },
+  "nixpkgs": {
+    "commit": "a16f7eb56e88c8985fcc6eb81dabd6cade4e425a"
+  }
+}
